@@ -22,12 +22,13 @@ export default class Sidebar extends Component {
                 style={{ backgroundImage: "url(images/about.jpg)" }}
               />
               <h1 id="colorlib-logo">
-                <a href="index.html">Some Human</a>
+                <a href="index.html">Umit Kilinc</a>
               </h1>
               <span className="email">
-                <i className="icon-mail" /> somehuman@gmail.com
+                <i className="icon-mail" /> kilincumit@outlook.com
               </span>
             </div>
+            <br></br>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
@@ -51,7 +52,7 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li>
+                {/* <li>
                   <a
                     href="https://www.facebook.com/"
                     target="_blank"
@@ -59,8 +60,8 @@ export default class Sidebar extends Component {
                   >
                     <i className="icon-facebook2" />
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/*  <li>
                   <a
                     href="https://twitter.com/"
                     target="_blank"
@@ -68,8 +69,8 @@ export default class Sidebar extends Component {
                   >
                     <i className="icon-twitter2" />
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a
                     href="https://www.instagram.com/"
                     target="_blank"
@@ -77,7 +78,7 @@ export default class Sidebar extends Component {
                   >
                     <i className="icon-instagram" />
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://www.linkedin.com/"
@@ -96,7 +97,7 @@ export default class Sidebar extends Component {
                     <i className="icon-github" />
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://medium.com/"
                     target="_blank"
@@ -104,11 +105,11 @@ export default class Sidebar extends Component {
                   >
                     <i className="icon-blogger2" />
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
             <div className="colorlib-footer">
-              <p>
+              {/* <p>
                 <small>
                   Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
                   <i className="icon-beer" aria-hidden="true" />
@@ -123,9 +124,9 @@ export default class Sidebar extends Component {
                   </a>{" "}
                   for inspiration
                 </small>
-              </p>
+              </p> */}
               <p>
-                <small>Something coming soon !!</small>
+                <small>Something cool coming soon !!</small>
               </p>
             </div>
           </aside>
